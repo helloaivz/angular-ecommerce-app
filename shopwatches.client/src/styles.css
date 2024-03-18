@@ -1,0 +1,8 @@
+.my-container .grid-view {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.my-container .grid-view .col-3{
+    margin: 0 0 20px;
+}

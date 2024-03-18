@@ -1,0 +1,51 @@
+
+<div class="my-container mx-auto">
+  <!-- Toolbar -->
+
+  <div class="border p-5">
+
+    <!-- Grid View -->
+
+    <br />
+    <h2>List of Products</h2>
+    <div class="clear"></div>
+
+    <div class="processing" role="status" *ngIf="displayMessage" id="addedtocart">
+      <h6 class="m-0" [ngClass]="classname"> {{message}} </h6>
+    </div>
+    <br />
+    <div class="grid-view">
+      <div class="row g-5">
+
+        <div class="col-3" *ngFor="let product of products">
+          <div class="grid-view-grid">
+            <div class="card text-center">
+
+              <div class="overflow-hidden d-flex justify-content-center align-items-center">
+                <img src="/assets/images/{{product.image}}" alt="" class="card-img-top" width="100">
+              </div>
+
+              <div class="card-body">
+                <h5 class="card-title title"> {{product.title}} </h5>
+                <p class="card-text description"> {{product.description}} </p>
+                <h6 class="card-subtitle my-2 text-primary">Stock: {{product.qty}} </h6>
+                <h5 class="card-text text-success ">Price: ${{product.price}} </h5>
+              </div>
+
+
+              <div class="card-footer d-grid gap-2">
+                <button type="button" class="btn btn-outline-success" (click)="this.utilityService.addToCart(product)">
+                  Add to Cart
+                </button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+

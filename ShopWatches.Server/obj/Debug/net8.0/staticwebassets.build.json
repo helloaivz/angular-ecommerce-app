@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "II9LTxGdCefZo1Yn0usGqT8nB6NgEmrtYpo2Qvn+zX0=",
+  "Source": "ShopWatches.Server",
+  "BasePath": "_content/ShopWatches.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "D:\\Users\\HP\\Desktop\\Aivie\\aRobertson\\Assignments\\ShopWatches\\shopwatches.client\\shopwatches.client.esproj",
+      "Version": 2,
+      "Source": "shopwatches.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

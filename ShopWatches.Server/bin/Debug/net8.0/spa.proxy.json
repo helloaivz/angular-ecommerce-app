@@ -1,0 +1,10 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:4200",
+"RedirectUrl": "",
+"LaunchCommand": "npm start",
+"WorkingDirectory": "D:\\Users\\HP\\Desktop\\Aivie\\aRobertson\\Assignments\\ShopWatches\\ShopWatches.Server\\..\\shopwatches.client",
+"MaxTimeoutInSeconds": "120",
+"KeepRunning": "false"
+}
+}
